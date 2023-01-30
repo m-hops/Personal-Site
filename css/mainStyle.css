@@ -15,7 +15,8 @@ body {
 
 .returnBTN {
   position: absolute;
-  left:16.5%;
+  right: 78.5%;
+  left:17.5%;
   top:16.5%;
   width:5VW;
   height:5vw;
@@ -25,13 +26,14 @@ body {
   text-align: center;
   align-content: center;
   padding-top:0.8%;
+  filter:blur(1px)
 }
 
 .mainDisplayArea {
-  background-color: #e2dfb1;
-  width: 70vw;
+  background-image: url(../media/images/screenBKG.png);
+  width: 68vw;
   height: 80vh;
-  margin-top: 2%;
+  margin-top: 1vh;
   margin-left: auto;
   margin-right: auto;
   padding-left: 2%;
@@ -39,11 +41,12 @@ body {
   padding-top: 0.1%;
   padding-bottom: 1%;
   overflow-y: scroll;
-  box-shadow: 0 0 20px #5f6125 inset, 0px 0px 2px black;
+  box-shadow: 0 0 20px #535614 inset, 0px 0px 2px black;
   scrollbar-width: none;
   border: solid #424242;
-  border-width: 30px 100px 30px 150px;
+  border-width: 3vh 6vw 3vh 8vw;
   border-radius: 10px 10px 100px 10px;
+  overflow-y: scroll;
 }
 
 .navBarArea {
@@ -115,7 +118,7 @@ body {
   margin-top:10%;
   font-size: 2.5em;
   color:#26500e;
-  filter: drop-shadow(2px 2px 5px #5f6125) blur(1px);
+  filter: drop-shadow(2px 2px 2px #535614) blur(1px);
 }
 
 .readingsLink1,
@@ -126,11 +129,20 @@ body {
   border-radius: 10px;
   border-style: dashed;
   border-width: 5px;
+  border-color: #26500e;
   width:25%;
   height:10%;
   display: inline-block;
   margin:3%;
   padding-top:1%;
+}
+
+.readingsLink1:hover,
+.readingsLink2:hover,
+.readingsLink3:hover,
+.readingsLink4:hover,
+.readingsLink5:hover {
+  background-color: rgba(0, 0, 0, 0.116);
 }
 
 .exercises {
@@ -142,7 +154,7 @@ body {
   margin-top:25%;
   font-size: 2.5em;
   color:#26500e;
-  filter: drop-shadow(2px 2px 5px #5f6125) blur(1px);
+  filter: drop-shadow(2px 2px 2px #535614) blur(1px);
 }
 
 .exercisesLink1,
@@ -161,6 +173,15 @@ body {
   padding-top:1%;
 }
 
+.exercisesLink1:hover,
+.exercisesLink2:hover,
+.exercisesLink3:hover,
+.exercisesLink4:hover,
+.exercisesLink5:hover,
+.exercisesLink6:hover {
+  background-color: rgba(0, 0, 0, 0.116);
+}
+
 .projects {
   width: 100%;
   height: auto;
@@ -171,7 +192,7 @@ body {
   margin-bottom:20%;
   font-size: 2.5em;
   color:#26500e;
-  filter: drop-shadow(2px 2px 5px #5f6125) blur(1px);
+  filter: drop-shadow(2px 2px 2px #535614) blur(1px);
 }
 
 .projectsProposalLink,
@@ -186,14 +207,19 @@ body {
   padding-top:1%;
 }
 
+.projectsProposalLink:hover,
+.projectsFinalLink:hover {
+  background-color: rgba(0, 0, 0, 0.116);
+}
+
 #mainLogo {
   margin: auto;
   width: 66%;
   max-width: 276px;
   height: auto;
-  max-height: 360px;
+  max-height: 372px;
   image-rendering: pixelated;
-  filter: drop-shadow(2px 2px 5px #5f6125) blur(1px);
+  filter: drop-shadow(2px 2px 2px #535614) blur(1px);
 }
 
 #signature {
@@ -203,7 +229,7 @@ body {
   height:auto;
   max-height:410px;
   image-rendering: pixelated;
-  filter: drop-shadow(2px 2px 5px #5f6125) blur(1px);
+  filter: drop-shadow(2px 2px 2px #535614) blur(1px);
 }
 
 #readingLinkIMG1,
